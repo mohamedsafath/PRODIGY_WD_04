@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="home">
+    <div class="content">
+      <h1>Hi, I'm Mohamed Safath</h1>
+      <p>I'm a Web Developer creating innovative and functional web experiences.</p>
+      <a href="#projects" class="cta">Explore My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="content">
+      <h2>About Me</h2>
+      <p>I'm passionate about coding and constantly learning new technologies to improve my skill set.</p>
+     </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-set">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <img src="andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="Personal Blog Website">
+        <h3>Personal Blog Website</h3>
+        <p>A clean, responsive blog website with the ability to post, edit, and view articles.</p>
+        <a href="https://your-link-to-blog-project.com" class="cta" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="jo-szczepanska-5aiRb5f464A-unsplash.jpg" alt="Task Management App">
+        <h3>Task Management App</h3>
+        <p>An app to manage tasks with features like add, edit, delete, and filter tasks.</p>
+        <a href="https://your-link-to-task-management-app.com" class="cta" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="cta">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Designed by Mohamed Safath &copy; 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
